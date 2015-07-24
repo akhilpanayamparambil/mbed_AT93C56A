@@ -1,12 +1,3 @@
-/** AT93C46
- * AT93C46A x16 mode(7pin OC mean NC ,maybe)
- * AT93C46E x16 mode(7pin NC)
- * AT93C46D x16 mode(7pin ORG,H=x16,L=x8)
- * Cap=1Kbits 64words @ x16
- * SB(start bit)=1bit OP-code=2bits Addr=6bits(64word)
- * controll use gpib port(Outoutx3,Inputx1)
- * 
- */
 #ifndef MBED_AT93C56_H
 #define MBED_AT93C56_H
  
